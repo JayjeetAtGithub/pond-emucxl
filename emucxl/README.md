@@ -21,7 +21,7 @@ regular 2-socket (2S) system.
     ```bash
     # Qemu installation from the source code
     ## Install the required dependencies. More details can be found at https://wiki.qemu.org/Hosts/Linux
-    $ sudo apt-get install -y libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev
+    $ sudo apt-get install -y libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev python3-venv ninja-build
     $ sudo apt-get install libibverbs-dev libjpeg8-dev libncurses5-dev libnuma-dev libaio-dev libslirp-dev libaio1 flex bison
     # Now, download the latest version and build the qemu
     $ wget https://download.qemu.org/qemu-8.2.2.tar.xz
